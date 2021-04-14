@@ -1,0 +1,116 @@
+.header{
+    color: #e84121;
+    font-size: 14px;
+}
+.headerIcon a{
+    min-height: 54px;
+    font-size: 20px;
+    color: #e84121 !important;
+}
+.btnConnexion{
+    color: #e84121 !important;
+    border-color: #e84121 !important;
+    background-color: transparent !important;
+    font-size: 13px;
+}
+.btnConnexion:hover{
+    background-color:#e84121 !important;
+    color: white !important;
+}
+.btnConnexion:focus{
+    box-shadow: none;
+}
+.logo img {
+    height: 3rem;
+}
+.navbar-toggler {
+    border-color: transparent !important;
+}
+.navbar-toggler:focus {
+    border-color: transparent !important;
+}
+a:hover {
+    cursor: pointer;
+}
+.lien1:hover{
+    color: #e84121 !important;
+}
+.lien1{
+    color: #777777;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.lien {
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.lien:hover {
+/*     background-color: #5e72e4 !important;
+    font-weight: 600;
+    border-radius: 1.375rem;
+    border-left: none;
+    transition: .5s;
+    border-color: #5e72e4;
+    color: white !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); */
+
+    border-bottom: 2px solid #e84121 !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.cadre {
+/*     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent; */
+}
+.active{
+    border-bottom: 2px solid #e84121 !important;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+    font-size: 12px;
+    
+}
+#header{
+    transition: 1.5s;
+}
+.sticky1 {
+    background-color: #ffffff;
+    transition: 1.5s;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #dde4ec;
+    transition: 1.5s;
+    z-index: 2;
+    box-shadow: 0 6px 12px rgba(0,0,0,.15);
+}
+@media screen and (max-width: 800px){
+    .cadre {
+        position: relative;
+    }
+    .active{
+        width: 75%;
+    }
+    .lien:hover {
+        background-color: transparent;
+        font-weight: normal;
+        border-radius: 0;
+        border-color: transparent;
+        box-shadow: none;
+        color: black;
+    }
+    .navbar-collapse {
+        justify-content: normal !important;
+    }
+    .enveloppe{
+        margin-left: 0px !important;
+    }
+    .headerIcon{
+        text-align: justify !important;
+        margin-right: 0px !important;
+    }
+}

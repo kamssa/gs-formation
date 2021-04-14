@@ -1,0 +1,115 @@
+.masked {
+    margin-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+label {
+    color: #444444;
+    font-weight: 600;
+    margin: 0 0 25px;
+    line-height: 1.5;
+}
+.inputInscription {
+    box-shadow: 0 3.2px rgba(208, 208, 208, 0.25);
+    border: 1px solid rgba(208, 208, 208, 0.25);
+}
+.inputInscription:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #e84121;
+}
+.btnInscription {
+    width: 15rem;
+    background-color: #e84121 !important;
+    border-color: #e84121 !important;
+    border-radius: 1.375rem;
+}
+.btnInscription:active {
+    box-shadow: none !important;
+}
+.btnInscription:focus {
+    box-shadow: none !important;
+}
+.btnInscription:hover {
+    background: transparent !important;
+    color: #e84121 !important;
+}
+.btnInscription2 {
+    width: 15rem;
+    background-color: #e84121 !important;
+    border-color: #e84121 !important;
+    border-radius: 1.375rem;
+}
+.btnInscription2:active {
+    box-shadow: none !important;
+}
+.btnInscription2:focus {
+    box-shadow: none !important;
+}
+.btnInscription2:hover {
+    background: transparent !important;
+    color: #e84121 !important;
+}
+.nav li a {
+    color: #444444 !important;
+}
+.nav li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    //float: left;
+    position: relative;
+    font-weight: 400;
+    text-align: center;
+}
+.nav li::before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+.nav li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+.info::before {
+    font-family: FontAwesome;
+    content: "\f05a";
+}
+.dossiers::before{
+    font-family: FontAwesome;
+    content: "\f0c6";
+}
+.formations::before {
+    font-family: FontAwesome;
+    content: "\f19d";  
+}
+.nav .active {
+    color: #e84121
+}
+.nav li.active:before,
+.nav li.active:after {
+    background: #e84121
+}
+
+@media screen and (max-width:800px){
+    .masked{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0;
+    }
+}

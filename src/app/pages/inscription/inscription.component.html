@@ -1,0 +1,95 @@
+<div class="container-fluid">
+<!--     <div class="row pb-5 pt-3">
+        <div class="col-md-4">
+            <div class="ml-4" style="padding-top: 8rem;">
+                <h2 class="font-weight-bold" style="font-size: 2.75rem;line-height: 3.030rem;">Bienvenue sur la section <br><span>d'inscription</span></h2>
+            </div>
+        </div>
+        <div class="col-md-8 imgCadre">
+            <img src="./assets/images/2833678.jpg" alt="" class="img-fluid">
+        </div>
+    </div> -->
+    <div class="row justify-content-center pt-3 pb-5">
+        <div class="col-md-8">
+            <ul class="nav justify-content-center " id="deuxieme">
+                <li class="info font-weight-bold">Informations personnelles</li>
+                <li class="dossiers font-weight-bold">Dossiers</li>
+                <li class="formations font-weight-bold">Formations</li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="container-fluid" style="background-color: #f8f9fa;">
+    <div id="troisieme">
+        <div class="row cadre1 justify-content-center" style="padding-top: 80px;">
+            <h2 class="text-uppercase font-weight-bold">Dis-nous qui tu es !</h2>
+            <div class="masked">
+                <p>Bonjour,</p>
+                <p>Bienvenue sur le site d'inscription de <span class="font-weight-bold">IPMD</span>. Tu as plusieurs étapes à franchir avant de pouvoir valider ta candidature et devenir (on croise les doigts) futur(e) étudiant(e) de 42.</p>
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group pt-3">
+                        <label for="">Nom</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Prénom</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Genre</label>
+                        <select class="custom-select inputInscription">
+                            <option value="0"></option>
+                            <option value="2">Homme</option>
+                            <option value="3">Femme</option>
+                        </select>
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Date de Naissance</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Lieu de Naissance</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Numéro Tél</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Mail</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                    <div class="form-group pt-3">
+                        <label for="">Fonction actuelle</label>
+                        <input type="text" class="form-control inputInscription">
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+        <div class="row cadre2 pt-5 pb-5">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti maiores ratione modi laudantium consequuntur ea, expedita facere cumque nam illo. Dolores, id cumque eos optio fuga fugiat eum minima?</p>
+            </div>
+        </div>
+        <div class="row cadre3 pt-5 pb-5">
+            <div class="col-md-12">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis non suscipit, a earum corporis quas consectetur dolor! Deserunt, odit dignissimos ea incidunt recusandae animi sapiente! Provident laboriosam aliquam eos nisi.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center pt-5" style="padding-bottom: 100px;">
+                <button type="button" *ngIf="butttonPrev" class="btn btn-primary btn-lg btnInscription2" (click)="prev(1)">Précedent</button>
+                <button type="button" class="btn btn-primary btn-lg btnInscription" (click)="next(1)">Suivant</button>
+            </div>
+        </div>
+    </div>
+</div>

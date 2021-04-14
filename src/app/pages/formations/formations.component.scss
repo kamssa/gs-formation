@@ -1,0 +1,82 @@
+.cadreSearch {
+    min-height: 305px;
+    //background-color: #dceaf5 !important;
+    background-image: url(src/assets/images/cover.jpg);
+    //background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.25rem;
+}
+.iconSearch{
+    position: absolute;
+    right: 2em;
+    top: 34%;
+    margin-top: -9px;
+}
+.inputSearch {
+    box-shadow: 0 3.2px rgba(208, 208, 208, 0.25);
+    border: 1px solid rgba(208, 208, 208, 0.25);
+}
+.inputSearch:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #e84121;
+}
+.btnSearch {
+    color: #e84121;
+    cursor: pointer;
+}
+.titreCard {
+    color: #e84121;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    /* margin-bottom: 30px; */
+}
+.traitTitre{
+    border-top: 2px solid #e84121;
+}
+/* .cardF1 {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+/* .cardF2 {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+/* .cardF3 {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+.styleCard{
+    box-shadow: 0 20px 60px -30px rgba(0,0,0,.45);
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link {
+    color: #444444 !important;
+}
+.nav-link:hover{
+    color: #e84121 !important;
+}
+@media screen and (max-width:800px) {
+    .cardF1 {
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cardF2 {
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cardF3 {
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

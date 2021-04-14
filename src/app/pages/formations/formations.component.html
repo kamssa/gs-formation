@@ -1,0 +1,31 @@
+<div class="container cadreSearch">
+    <div class="row justify-content-center" style="padding-top: 90px;">
+        <div class="col-md-6">
+            <form action="">
+                <div class="form-group">
+                    <input type="text" placeholder="Recherche" class="form-control inputSearch">
+                    <span class="iconSearch"><i class="fa fa-search btnSearch"></i></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container pb-5 pt-4">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let i of data;let cpt=index" style="margin-bottom: 9px;">
+          <div class="card styleCard">
+            <div class="card-body">
+              <h5 class="card-title text-center titreCard">{{i.categorie}}</h5>
+              <div>
+                <ul style="padding-left: 0px;">
+                  <li class="nav-item"><a class="nav-link" routerLink="/single-post">{{i.formations}}</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
